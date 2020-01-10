@@ -25,7 +25,7 @@ void printDbLinkedList(DbLinkedList *list);
 
 int main()
 {
-	DbLinkedList *list = createDbLinkedList(); //îãîëîñèëè ñïèñîê
+	DbLinkedList *list = createDbLinkedList(); 
 	int a, b, c, d;
 
 	scanf("%d %d %d %d", &a, &b, &c, &d);
