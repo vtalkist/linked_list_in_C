@@ -5,27 +5,27 @@
 
 typedef struct _Node
 {
-	int data; // тут тримаєш двоцифрове число
-	struct _Node *next; // вказівник на наступний елемент
-	struct _Node *prev; // вказівник на попередній елемент
+	int data; 
+	struct _Node *next; 
+	struct _Node *prev; 
 }Node;
 
 typedef struct _DbLinkedList
 {
-	int size;  // розмір списку
-	Node *head; // вказівник на початок списку
-	Node *tail; // вказівник на кінець списку
+	int size;  
+	Node *head;
+	Node *tail; 
 }DbLinkedList;
 
-DbLinkedList * createDbLinkedList(); // прототип функції для створення списку
-void deleteDbLinkedList(DbLinkedList **list); // прототип для видалення списку
-void pushFront(DbLinkedList *list, int data); // додавання елементу в список на початок
-void printDbLinkedList(DbLinkedList *list); // видрук елементу
+DbLinkedList * createDbLinkedList();
+void deleteDbLinkedList(DbLinkedList **list);
+void pushFront(DbLinkedList *list, int data); 
+void printDbLinkedList(DbLinkedList *list); 
 
 
 int main()
 {
-	DbLinkedList *list = createDbLinkedList(); //оголосили список
+	DbLinkedList *list = createDbLinkedList(); //Г®ГЈГ®Г«Г®Г±ГЁГ«ГЁ Г±ГЇГЁГ±Г®ГЄ
 	int a, b, c, d;
 
 	scanf("%d %d %d %d", &a, &b, &c, &d);
